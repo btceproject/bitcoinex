@@ -1110,7 +1110,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     {
         nSubsidy = 5 * COIN; // 5 BTCe: Until coin supply reaches 99,500,000
     }
-    else if(nHeight <= 3450000)
+    else if(nHeight <= 3900000)
     {
         nSubsidy = 1 * COIN; // 1 BTCe : Until coin supply reaches 100,000,000
     }
