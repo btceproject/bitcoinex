@@ -1092,7 +1092,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 
     if(nHeight == 1)
     {
-    	nSubsidy = 10000000 * COIN; // 10% Premine for development, promotion, airdrops and bounties
+    	nSubsidy = 10000000 * COIN; // 10%  for development, promotion, airdrops and bounties, exchange services
     }
     else if(nHeight <= 800000)
     {
@@ -1102,15 +1102,15 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     {
         nSubsidy = 25 * COIN; // 25 BTCe : Until coin supply reaches 90,000,000
     }
-    else if(nHeight <= 2500000) 
+    else if(nHeight <= 3300000) 
     {
         nSubsidy = 10 * COIN; // 10 BTCe : Until coin supply reaches 99,000,000
     }
-    else if(nHeight <= 2600000)
+    else if(nHeight <= 3400000)
     {
         nSubsidy = 5 * COIN; // 5 BTCe: Until coin supply reaches 99,500,000
     }
-    else if(nHeight <= 3100000)
+    else if(nHeight <= 3450000)
     {
         nSubsidy = 1 * COIN; // 1 BTCe : Until coin supply reaches 100,000,000
     }
